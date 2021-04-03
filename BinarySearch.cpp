@@ -5,7 +5,6 @@ int search (int a[], int v, int l, int r)
     while (r >= 1)
     {
         int m = (l+r) / 2;
-
         std::cout << "m / v / l / r " << m << " " << v << " " << l << " " << r << "\n" ;
 
         if (v == a[m])        
